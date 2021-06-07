@@ -14,6 +14,8 @@
 }
 .border{
     border:2px solid black;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .img-props{
    margin:15px;
@@ -52,14 +54,13 @@
    margin: auto;
    width: 53%;
    padding: 10px;
-
 }
 .galleryLeft,.galleryRight,.galleryMiddle{
   float:left;
   width: 300px;
   margin: 5px;
   height: 300px;
-border-radius: 10px;
+border-radius: 8px;
 
 }
 #about{
@@ -89,7 +90,6 @@ input, textarea {
             border: 1px solid #808080;
             font-size: 12px;
             padding: 10px 0;
-            text-transform: uppercase;
         }
 
 input[type="text"] {
@@ -117,9 +117,9 @@ textarea {
 }
 
 input[type="submit"] {
-            background-color: red;
+            background-color: green;
             border: none;
-            color: white;
+            color: black;
             height: 45px;
             width: 100%;
             max-width:93px;
