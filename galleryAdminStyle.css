@@ -1,0 +1,107 @@
+.add-button{
+      background-color: #7947de;
+      border-color: #402a6e;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin:20px;
+}
+.add-button:hover{
+    background: #000;
+}
+#galleryAdmin{
+text-align: center;
+margin:auto;
+}
+.popup {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 100000; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.popup-content {
+	position: relative;
+	background-color: #555555;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #000;
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.close1 {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close1:hover,
+.close1:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.popup-header {
+	padding: 2px 16px;
+	background-color: #333333;
+	color: white;
+}
+.popup-body {
+    padding: 2px 16px;
+    padding-left:30px;
+    text-align:center;
+}
+.text-style{
+    color:white;
+    font-size: 20px;
+}
+.row {
+margin-top: 20px;
+  display: flex;
+}
+.add-image-button{
+      background-color: #111111;
+      border-color: #aaaaaa;
+      border-radius: 8px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin:20px;
+}
+#galleryCollection {
+    height: auto;
+    width: auto;
+    text-align: center;
+  margin-left: 2%;
+  margin-right: 2%
+}
+#galleryCollection img {
+    margin: auto;
+    padding: 5px 10px 10px 5px;
+  height: 200px;
+  width: 200px;
+}

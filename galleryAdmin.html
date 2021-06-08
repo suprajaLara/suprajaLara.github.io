@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Supraja - Gallery Admin</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="galleryAdminStyle.css">
+</head>
+
+<body class="bg">
+<header>
+    <br>
+    <h1 class="title" ><i>Hi! I am Supraja Miryala. Welcome to my Gallery!</i></h1>
+    <nav class="align-center">
+        <a href="index.html#home" class="btn">Home</a>
+        <a href="index.html#about" class="btn">About</a>
+        <a href="index.html#gallery" class="btn">Gallery</a>
+        <a href="index.html#contact" class="btn">Contact</a>
+        <a href="galleryAdmin.html" class="btn">Gallery Admin</a>
+    </nav>
+</header>
+
+<div id="galleryAdmin">
+    <br>
+    <h1>Gallery Admin</h1>
+
+    <div id="galleryCollection"></div>
+
+    <button id="add_button" type="button" class="add-button">Add Image</button>
+
+    <div id="AddImagePopup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <span class="close">&times;</span>
+                <i><h1>Add Image</h1></i>
+            </div>
+            <div class="popup-body">
+                <form id="image_form" action="" name="addImageForm">
+                    <br>
+                    <div class="row">
+                        <label for="name" class="text-style">Image Name:&nbsp;</label><br>
+                        <input id="name" class="input" name="imgName" type="text" value="" size="30" /><br />
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="url" class="text-style">Image URL:&nbsp;</label><br>
+                        <input id="url" class="input" name="url" type="text" value="" /><br />
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="info" class="text-style">Image Details:&nbsp;</label><br>
+                        <input id="info" class="input" name="info" rows="7" cols="30" value=""></input><br />
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="update" class="text-style">Upload Date(dd/mm/yyyy):&nbsp;</label><br />
+                        <input id="update" class="input" name="update" type="text" value=""></input><br />
+                    </div>
+                    <br>
+                    <button id="AddImageButton" type="button" class="add-image-button">Add Image</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="EditImagePopup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <span class="close1">&times;</span>
+                <i><h1>Update/Delete Image</h1></i>
+            </div>
+            <div class="popup-body">
+                <form id="edit_form" action="" name="editImageForm">
+                    <br>
+                    <div class="row">
+                        <label for="edit_name" class="text-style">Image Name:&nbsp;</label><br>
+                        <input id="edit_name" class="input" name="name" type="text" value="" size="30" /><br />
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="edit_url" class="text-style">Image URL:&nbsp;</label><br>
+                        <input id="edit_url" class="input" name="url" type="text" value="" /><br />
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="edit_info" class="text-style">Image Details:&nbsp;</label><br>
+                        <input id="edit_info" class="input" name="info" rows="7" cols="30" value=""></input><br />
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="edit_update" class="text-style">Upload Date(dd/mm/yyyy):&nbsp;</label><br />
+                        <input id="edit_update" class="input" name="update" type="text" value=""></input><br />
+                    </div>
+                    <br>
+                    <button id="EditImageButton" type="button" class="add-image-button">Update Image</button>
+                    <button id="DeleteImageButton" type="button" class="add-image-button">Delete Image</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="adminScript.js" type="text/javascript" ></script>
+</body>
+</html>
