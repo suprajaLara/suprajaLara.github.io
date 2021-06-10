@@ -113,10 +113,16 @@ input[type="email"] {
             padding-left: 3%;
             width: 44.9%;
 }
+input[type="number"] {
+            float: left;
+            margin-bottom: 8px;
+            padding-left: 3%;
+            width: 44.9%;
+}
 .gutter {
     margin-right: 2.8%;
 
-        }
+ }
 
 textarea {
             height: 106px;
@@ -134,8 +140,6 @@ input[type="submit"] {
             max-width:93px;
             text-align: center;
 }
-
-
 .bg {
   /* The image used */
   background-image: url("snow.jpg");
@@ -147,4 +151,15 @@ input[type="submit"] {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display:flex;
+  flex-direction:column;
+}
+.content{
+    flex:1;
+    overflow:auto;
+}
+html{
+  height: 100%;
+  margin: 0;
 }

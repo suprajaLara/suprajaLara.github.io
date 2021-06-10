@@ -2,6 +2,7 @@ function validateForm(){
 	var firstName = document.forms["contact-form"]["firstName"].value;
 	var lastName = document.forms["contact-form"]["lastName"].value;
 	var email = document.forms["contact-form"]["email"].value;
+	var phone = document.forms["contact-form"]["phone"].value;
 	var message = document.forms["contact-form"]["message"].value;
 	if(firstName===""){
 		alert("Please enter first name");
@@ -15,6 +16,10 @@ function validateForm(){
 		alert("Please enter email address");
 		return false;
 	}
+	else if(phone===""){
+    		alert("Please enter mobile number");
+    		return false;
+    }
 	else if(message===""){
 		alert("Please enter the message");
 		return false;
